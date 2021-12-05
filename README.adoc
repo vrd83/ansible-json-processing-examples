@@ -1,0 +1,22 @@
+= ansible-json-examples
+
+A repo to test processing JSON using Ansible.
+
+== Overview
+The motivation for this project is to build a set of referencable patterns when processing JSON with Ansible.
+
+The GitHub repository https://github.com/public-apis/public-apis[public-apis] contains a great list of public APIs. As a gamer and fan of the Age of Empires series, I use the https://age-of-empires-2-api.herokuapp.com/docs/[Age of Empires II] public API in this project.
+
+My approach is to retrieve JSON using the GET method of the URI module and then process the data with Ansible functions, including 'json_query'. Next, I'll save the processed data in the 'output' folder for closer examination. Finally, each task answers a specific question posed as a comment.
+
+The project contains a Makefile for convenience. Run 'make' to see a list of available options. 
+
+I plan to add to this project over time, so please submit a PR if you would like to add additional examples or fix issues. :)
+
+
+== References and further reading
+
+* https://docs.ansible.com/ansible/latest/user_guide/playbooks_filters.html#formatting-data-yaml-and-json[Formatting data with Ansible]
+* https://jmespath.org/tutorial.html[JMESPath tutorial]
+* https://jmespath.org/examples.html[JMESPath examples]
+* https://opensource.com/article/21/4/process-json-data-ansible[5 ways to process JSON data in Ansible]

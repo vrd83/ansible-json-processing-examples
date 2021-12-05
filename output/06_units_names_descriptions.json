@@ -1,0 +1,418 @@
+[
+    {
+        "description": "Quick and light. Weak at close range; excels at battle from distance",
+        "name": "Archer"
+    },
+    {
+        "description": "Upgraded archer",
+        "name": "Crossbowman"
+    },
+    {
+        "description": "Upgraded crossbowman",
+        "name": "Arbalest"
+    },
+    {
+        "description": "Fast with ranged attack. Ideal for hit-and-run attacks",
+        "name": "Cavalry Archer"
+    },
+    {
+        "description": "Upgraded Cavalry Archer",
+        "name": "Heavy Cavalry Archer"
+    },
+    {
+        "description": "Powerful close attack; inaccurate at range. Attack bonus against spearman +11 in total",
+        "name": "Hand Cannoneer"
+    },
+    {
+        "description": "Ranged unit equipped with armor vs. archer attacks",
+        "name": "Skirmisher"
+    },
+    {
+        "description": "Upgraded skirmisher",
+        "name": "Elite Skirmisher"
+    },
+    {
+        "description": "Fast infantry with extensive sight; resists conversion; attack bonus vs. Monks",
+        "name": "Eagle Warrior"
+    },
+    {
+        "description": "Fast infantry with extensive sight; resists conversion; attack bonus vs. Monks",
+        "name": "Eagle Warrior"
+    },
+    {
+        "description": "Upgraded Eagle Warrior",
+        "name": "Elite Eagle Warrior"
+    },
+    {
+        "description": "Medium infantry",
+        "name": "Spearman"
+    },
+    {
+        "description": "Upgraded Spearman",
+        "name": "Pikeman"
+    },
+    {
+        "description": "Upgraded Pikeman",
+        "name": "Halberdier"
+    },
+    {
+        "description": "Basic infantry swordsman. Quick and cheap to create",
+        "name": "Militia"
+    },
+    {
+        "description": "Upgraded Militia. Attack bonus vs. buildings",
+        "name": "Man-at-Arms"
+    },
+    {
+        "description": "Upgraded Man-at-Arms",
+        "name": "Long Swordsman"
+    },
+    {
+        "description": "Upgraded Long Swordsman. Attack bonus vs. buildings",
+        "name": "Two-Handed Swordsman"
+    },
+    {
+        "description": "Upgraded Two-Handed Swordsman",
+        "name": "Champion"
+    },
+    {
+        "description": "Cannot be produced so the cost and build time just for the sake of interest",
+        "name": "King"
+    },
+    {
+        "description": "Demolition infantry unit armed with explosives. Bonuses add up - for example against walls and gates: +500 buildings +900 walls = +1400 bonus attack",
+        "name": "Petard"
+    },
+    {
+        "description": "Powerful siege weapon used to destroy buildings and walls from long distance. Cannot fire on close units. Must be packed to move and unpacked to attack. Can cut paths through forests. Unpack time: 0:11",
+        "name": "Trebuchet"
+    },
+    {
+        "description": "Powerful siege weapon used to destroy buildings and walls from long distance. Cannot fire on close units. Must be packed to move and unpacked to attack. Can cut paths through forests. Unpack time: 0:11",
+        "name": "Trebuchet (packed)"
+    },
+    {
+        "description": "Long-range warship used to attack targets on shore to establish beachhead. Fires slowly and has minimum range",
+        "name": "Cannon Galleon"
+    },
+    {
+        "description": "Upgraded Cannon Galleon",
+        "name": "Elite Cannon Galleon"
+    },
+    {
+        "description": "Filled with explosives. Self-destructs when used. Pilot near enemy ships and detonate to wrest control of the sea from an entrenched opponent",
+        "name": "Demolition Ship"
+    },
+    {
+        "description": "Upgraded Demolition Ship",
+        "name": "Heavy Demolition Ship"
+    },
+    {
+        "description": "Spews fire at other ships. Good at sinking galleys. Attack shows pierce attack",
+        "name": "Fire Ship"
+    },
+    {
+        "description": "Upgraded Fire Ship",
+        "name": "Fast Fire Ship"
+    },
+    {
+        "description": "Small and fast ship with weak attack. Used to scout the water and for early attacks on enemy fishing fleets",
+        "name": "Galley"
+    },
+    {
+        "description": "Upgraded Galley",
+        "name": "War Galley"
+    },
+    {
+        "description": "Upgraded War Galley",
+        "name": "Galleon"
+    },
+    {
+        "description": "Viking unique unit. Fires multiple arrows. volley of 4 arrows (7-1-1-1). Castle needed. Because of the multiple arrows the delay between starts of attacks is roughly 3.34",
+        "name": "Longboat"
+    },
+    {
+        "description": "Upgraded Longboat",
+        "name": "Elite Longboat"
+    },
+    {
+        "description": "Ship to harvest fish (resource)",
+        "name": "Fishing Ship"
+    },
+    {
+        "description": "Movement rate 2.00 with caravan",
+        "name": "Trade Cog"
+    },
+    {
+        "description": "Ship to carry units. Garrison inside 5 (10 with careening and 20 with dry dock)",
+        "name": "Transport Ship"
+    },
+    {
+        "description": "Korean unique unit. Slow and ironclad battleship used to destroy other ships at close range",
+        "name": "Turtle Ship"
+    },
+    {
+        "description": "Upgraded Turtle Ship",
+        "name": "Elite Turtle Ship"
+    },
+    {
+        "description": "Wild boar",
+        "name": "Wild Boar"
+    },
+    {
+        "description": "Wild deers running around",
+        "name": "Deer"
+    },
+    {
+        "description": "Can be used as scout",
+        "name": "Horse"
+    },
+    {
+        "description": "Can be picked up by player and used to scout",
+        "name": "Sheep"
+    },
+    {
+        "description": "Alternative to sheep",
+        "name": "Turkey"
+    },
+    {
+        "description": "Wild wolf. Gives no food just kills people. Line of sight also depends on difficulty (4-12 LOS)",
+        "name": "Wolf"
+    },
+    {
+        "description": "Wild jaguar. Same as wolf on yucatan and other americas maps",
+        "name": "Jaguar"
+    },
+    {
+        "description": "Used to trade with other players by land. Carries goods from your Market to another player's Market and brings back gold. The farther the Market the higher your profit",
+        "name": "Trade Cart"
+    },
+    {
+        "description": "Spanish unique unit. Mounted monk",
+        "name": "Missionary"
+    },
+    {
+        "description": "Slow and weak. Converts enemy units and ships to your civilization (player color). Heals wounded villagers and military units (except siege weapons)",
+        "name": "Monk"
+    },
+    {
+        "description": "Powerful mobile anti-building siege weapon",
+        "name": "Bombard Cannon"
+    },
+    {
+        "description": "Wheeled siege weapon used to attack a small mass of units. Area of effect attack. Can attack ground. Weak vs. close nonranged units",
+        "name": "Mangonel"
+    },
+    {
+        "description": "Upgraded Mangonel",
+        "name": "Onager"
+    },
+    {
+        "description": "Upgraded Onager",
+        "name": "Siege Onager"
+    },
+    {
+        "description": "Slow and lumbering siege weapon used to reduce enemy towns to ruins. Can garrison 4 units (affects movement rate +0.05 per unit)",
+        "name": "Battering Ram"
+    },
+    {
+        "description": "Upgraded Battering Ram. Can garrison 4 units (affects movement rate +0.05 per unit). Max speed at 0.7",
+        "name": "Capped Ram"
+    },
+    {
+        "description": "Upgraded Capped Ram. Can garrison 6 units (affects movement rate +0.05 per unit)",
+        "name": "Siege Ram"
+    },
+    {
+        "description": "Damage to all units in the path",
+        "name": "Scorpion"
+    },
+    {
+        "description": "Upgraded Scorpion",
+        "name": "Heavy Scorpion"
+    },
+    {
+        "description": "Excels at killing other mounted units. (not classified as cavalry)",
+        "name": "Camel"
+    },
+    {
+        "description": "Upgraded Camel. Attack bonus vs. cavalry. (not classified as cavalry)",
+        "name": "Heavy Camel"
+    },
+    {
+        "description": "Fast and heavy cavalry",
+        "name": "Knight"
+    },
+    {
+        "description": "Upgraded Knight",
+        "name": "Cavalier"
+    },
+    {
+        "description": "Upgraded Cavalier",
+        "name": "Paladin"
+    },
+    {
+        "description": "Fast with extensive line of sight. Resistant to conversion and +2 Line of sight per age",
+        "name": "Scout Cavalry"
+    },
+    {
+        "description": "Fast with extensive line of sight. Resistant to conversion +2 Line of sight per age",
+        "name": "Scout Cavalry"
+    },
+    {
+        "description": "Upgraded scout cavalry. +2 Line of sight per age",
+        "name": "Light Cavalry"
+    },
+    {
+        "description": "Upgraded Light Cavalry. +2 Line of sight per age",
+        "name": "Hussar"
+    },
+    {
+        "description": "Gathers resources. Builds and repairs buildings. Also repairs ships and siege weapons",
+        "name": "Villager"
+    },
+    {
+        "description": "Viking unique unit. Infantry that slowly heals itself",
+        "name": "Berserk"
+    },
+    {
+        "description": "Upgraded Berserk",
+        "name": "Elite Berserk"
+    },
+    {
+        "description": "Byzantine unique unit. Heavily armored cavalry",
+        "name": "Cataphract"
+    },
+    {
+        "description": "Upgraded Cataphract",
+        "name": "Elite Cataphract"
+    },
+    {
+        "description": "Chinese unique unit. Archer with mediocre range. Shoots a volley of 2 extra arrows with 3 attack. Because of the multiple arrows the delay between starts of attacks is more (roughly 3.6)",
+        "name": "Chu Ko Nu"
+    },
+    {
+        "description": "Upgraded Chu Ko NU",
+        "name": "Elite Chu Ko Nu"
+    },
+    {
+        "description": "Spanish unique unit. Mounted Hand Cannoneer. Powerful close attack but inaccurate at range. (Only archer armor upgrades apply from blacksmith not range or attack)",
+        "name": "Conquistador"
+    },
+    {
+        "description": "Upgraded Conquistador",
+        "name": "Elite Conquistador"
+    },
+    {
+        "description": "Gothic unique unit. Infantry with substantial pierce armor; virtually immune to archer fire. Attack bonus vs. buildings and archers",
+        "name": "Huskarl"
+    },
+    {
+        "description": "Upgraded Huskarl",
+        "name": "Elite Huskarl"
+    },
+    {
+        "description": "Aztec unique unit. Attack bonus vs. other infantry",
+        "name": "Jaguar Warrior"
+    },
+    {
+        "description": "Upgraded Jaguar Warrior",
+        "name": "Elite Jaguar Warrior"
+    },
+    {
+        "description": "Turkish unique unit. Hand Cannoneer with longer range and no minimum range",
+        "name": "Janissary"
+    },
+    {
+        "description": "Upgraded Janissary",
+        "name": "Elite Janissary"
+    },
+    {
+        "description": "British unique unit. Powerful archer with long range",
+        "name": "Longbowman"
+    },
+    {
+        "description": "Upgraded Longbowman",
+        "name": "Elite Longbowman"
+    },
+    {
+        "description": "Saracen unique unit. Camel with hand-to-hand attack at distance. Excels vs. other mounted units",
+        "name": "Mameluke"
+    },
+    {
+        "description": "Upgraded Mameluke",
+        "name": "Elite Mameluke"
+    },
+    {
+        "description": "Mongol unique unit. Cavalry archer with attack bonus vs. siege weapons",
+        "name": "Mangudai"
+    },
+    {
+        "description": "Upgraded Mangudai",
+        "name": "Elite Mangudai"
+    },
+    {
+        "description": "Mayan unique unit. Strong fast and well-armored archer with less attack than other archers",
+        "name": "Plumed Archer"
+    },
+    {
+        "description": "Upgraded Plumed Archer",
+        "name": "Elite Plumed Archer"
+    },
+    {
+        "description": "Japanese unique unit. Infantry with fast attack. Attack bonus vs. other unique units and buildings",
+        "name": "Samurai"
+    },
+    {
+        "description": "Upgraded Samurai",
+        "name": "Elite Samurai"
+    },
+    {
+        "description": "Hun unique unit. Cavalry with attack bonus vs. buildings. (Attack bonuses stack - for example +16 against a palisade wall (8 buildings + 8 walls))",
+        "name": "Tarkan"
+    },
+    {
+        "description": "Upgraded Tarkan",
+        "name": "Elite Tarkan"
+    },
+    {
+        "description": "Teutonic unique unit. Infantry with effective armor and slow but powerful attack",
+        "name": "Teutonic Knight"
+    },
+    {
+        "description": "Upgraded Teutonic Knight",
+        "name": "Elite Teutonic Knight"
+    },
+    {
+        "description": "Frankish unique unit. Infantry with ranged attack",
+        "name": "Throwing Axeman"
+    },
+    {
+        "description": "Upgraded Throwing Axeman",
+        "name": "Elite Throwing Axeman"
+    },
+    {
+        "description": "Persian unique unit. Slow powerful strong and well-armored cavalry",
+        "name": "War Elephant"
+    },
+    {
+        "description": "Upgraded War Elephant",
+        "name": "Elite War Elephant"
+    },
+    {
+        "description": "Korean unique unit. Heavily armored horse-drawn archery unit",
+        "name": "War Wagon"
+    },
+    {
+        "description": "Upgraded War Wagon",
+        "name": "Elite War Wagon"
+    },
+    {
+        "description": "Celtic unique unit. Exceptionally quick infantry. Attack bonus vs. buildings",
+        "name": "Woad Raider"
+    },
+    {
+        "description": "Upgraded Woad Raider",
+        "name": "Elite Woad Raider"
+    }
+]

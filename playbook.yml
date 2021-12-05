@@ -1,0 +1,71 @@
+---
+- hosts: localhost
+  name: A playbook to provide examples of how to process JSON with Ansible
+  gather_facts: false
+
+  tasks:
+
+
+  # How do I retrieve the units response body as JSON using Ansible?
+  - name: Fetch and register the response body for Age Of Empires II (AoEII) units
+    uri:
+      url: https://age-of-empires-2-api.herokuapp.com/api/v1/units
+      method: GET
+      validate_certs: false
+    register: units_raw
+
+  # How do I save the response body to a local file for examination?  
+  - name: Save the raw response body to a local file for examination.
+    copy:
+      content: "{{ units_raw }}"
+      dest: ./output/00_units_raw.json
+      force: false
+
+  # The JSON file is unformatted and difficult to read. How do I format the JSON?
+  - name: Format the JSON to make it readable. This can also be done in VSCode with the 'Shift+Alt+F' shortcut.
+    copy:
+      content: "{{ units_raw | to_nice_json }}"
+      dest: ./output/01_units_fmt.json
+      force: false
+
+  # I've noticed the JSON includes Ansible specific information. How do I save only the response body?
+  - name: Save only response body section of the JSON.
+    copy:
+      content: "{{ units_raw.json | to_nice_json }}"
+      dest: ./output/02_units_resp_body_fmt.json
+      force: false
+
+  # How do I flatten the response body?
+  - name: Flatten the response body section of the JSON with Ansible's 'to_paths'.
+    copy:
+      content: "{{ lookup('ansible.utils.to_paths', units_raw.json) | to_nice_json }}"
+      dest: ./output/03_units_resp_body_fmt_flat.json
+      force: false
+  
+  # How do I retrieve only a list of unit names?
+  - name: Introduce json_query to retrieve a list of unit names.
+    copy:
+      content: "{{ units_raw.json | json_query('units[*].name') | to_nice_json }}"
+      dest: ./output/04_units_names.json
+      force: false
+
+  # How do I retrieve only a list of the first 3 unit names?
+  - name: Retrieve only the first three list of unit names.
+    copy:
+      content: "{{ units_raw.json | json_query('units[:3].name') | to_nice_json }}"
+      dest: ./output/05_units_names_first_three.json
+      force: false
+  
+  # How do I retrieve a list of unit names, their descriptions, and include the keys?
+  - name: Retrieve unit names, descriptions and include keys.
+    copy:
+      content: "{{ units_raw.json | json_query('units[*].{name: name, description: description}') | to_nice_json }}"
+      dest: ./output/06_units_names_descriptions.json
+      force: false
+
+  # How do I retrieve a list of units only found in expansion 'Age of Kings'?
+  - name: Retrieve unit names only if in expansion 'Age of Kings'.
+    copy:
+      content: "{{ units_raw.json | json_query('units[?expansion==`Age of Kings`].name') | to_nice_json }}"
+      dest: ./output/07_units_names_AoK_only.json
+      force: false
