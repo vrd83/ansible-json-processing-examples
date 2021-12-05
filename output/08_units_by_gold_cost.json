@@ -1,0 +1,334 @@
+[
+    {
+        "gold": 225,
+        "name": "Bombard Cannon"
+    },
+    {
+        "gold": 200,
+        "name": "Trebuchet"
+    },
+    {
+        "gold": 200,
+        "name": "Trebuchet (packed)"
+    },
+    {
+        "gold": 200,
+        "name": "Turtle Ship"
+    },
+    {
+        "gold": 200,
+        "name": "Elite Turtle Ship"
+    },
+    {
+        "gold": 150,
+        "name": "Cannon Galleon"
+    },
+    {
+        "gold": 150,
+        "name": "Elite Cannon Galleon"
+    },
+    {
+        "gold": 135,
+        "name": "Mangonel"
+    },
+    {
+        "gold": 135,
+        "name": "Onager"
+    },
+    {
+        "gold": 135,
+        "name": "Siege Onager"
+    },
+    {
+        "gold": 100,
+        "name": "Missionary"
+    },
+    {
+        "gold": 100,
+        "name": "Monk"
+    },
+    {
+        "gold": 85,
+        "name": "Mameluke"
+    },
+    {
+        "gold": 85,
+        "name": "Elite Mameluke"
+    },
+    {
+        "gold": 75,
+        "name": "Battering Ram"
+    },
+    {
+        "gold": 75,
+        "name": "Capped Ram"
+    },
+    {
+        "gold": 75,
+        "name": "Siege Ram"
+    },
+    {
+        "gold": 75,
+        "name": "Scorpion"
+    },
+    {
+        "gold": 75,
+        "name": "Heavy Scorpion"
+    },
+    {
+        "gold": 75,
+        "name": "Knight"
+    },
+    {
+        "gold": 75,
+        "name": "Cavalier"
+    },
+    {
+        "gold": 75,
+        "name": "Paladin"
+    },
+    {
+        "gold": 75,
+        "name": "Cataphract"
+    },
+    {
+        "gold": 75,
+        "name": "Elite Cataphract"
+    },
+    {
+        "gold": 75,
+        "name": "War Elephant"
+    },
+    {
+        "gold": 75,
+        "name": "Elite War Elephant"
+    },
+    {
+        "gold": 70,
+        "name": "Cavalry Archer"
+    },
+    {
+        "gold": 70,
+        "name": "Heavy Cavalry Archer"
+    },
+    {
+        "gold": 70,
+        "name": "Conquistador"
+    },
+    {
+        "gold": 70,
+        "name": "Elite Conquistador"
+    },
+    {
+        "gold": 65,
+        "name": "Mangudai"
+    },
+    {
+        "gold": 65,
+        "name": "Elite Mangudai"
+    },
+    {
+        "gold": 60,
+        "name": "Camel"
+    },
+    {
+        "gold": 60,
+        "name": "Heavy Camel"
+    },
+    {
+        "gold": 60,
+        "name": "Tarkan"
+    },
+    {
+        "gold": 60,
+        "name": "Elite Tarkan"
+    },
+    {
+        "gold": 60,
+        "name": "War Wagon"
+    },
+    {
+        "gold": 60,
+        "name": "Elite War Wagon"
+    },
+    {
+        "gold": 55,
+        "name": "Janissary"
+    },
+    {
+        "gold": 55,
+        "name": "Elite Janissary"
+    },
+    {
+        "gold": 50,
+        "name": "Hand Cannoneer"
+    },
+    {
+        "gold": 50,
+        "name": "Eagle Warrior"
+    },
+    {
+        "gold": 50,
+        "name": "Elite Eagle Warrior"
+    },
+    {
+        "gold": 50,
+        "name": "Demolition Ship"
+    },
+    {
+        "gold": 50,
+        "name": "Heavy Demolition Ship"
+    },
+    {
+        "gold": 50,
+        "name": "Trade Cog"
+    },
+    {
+        "gold": 50,
+        "name": "Trade Cart"
+    },
+    {
+        "gold": 45,
+        "name": "Archer"
+    },
+    {
+        "gold": 45,
+        "name": "Crossbowman"
+    },
+    {
+        "gold": 45,
+        "name": "Arbalest"
+    },
+    {
+        "gold": 45,
+        "name": "Fire Ship"
+    },
+    {
+        "gold": 45,
+        "name": "Fast Fire Ship"
+    },
+    {
+        "gold": 40,
+        "name": "Longboat"
+    },
+    {
+        "gold": 40,
+        "name": "Elite Longboat"
+    },
+    {
+        "gold": 40,
+        "name": "Longbowman"
+    },
+    {
+        "gold": 40,
+        "name": "Elite Longbowman"
+    },
+    {
+        "gold": 40,
+        "name": "Teutonic Knight"
+    },
+    {
+        "gold": 40,
+        "name": "Elite Teutonic Knight"
+    },
+    {
+        "gold": 37,
+        "name": "Plumed Archer"
+    },
+    {
+        "gold": 35,
+        "name": "Chu Ko Nu"
+    },
+    {
+        "gold": 35,
+        "name": "Elite Chu Ko Nu"
+    },
+    {
+        "gold": 32,
+        "name": "Elite Plumed Archer"
+    },
+    {
+        "gold": 30,
+        "name": "Galley"
+    },
+    {
+        "gold": 30,
+        "name": "War Galley"
+    },
+    {
+        "gold": 30,
+        "name": "Galleon"
+    },
+    {
+        "gold": 30,
+        "name": "Jaguar Warrior"
+    },
+    {
+        "gold": 30,
+        "name": "Elite Jaguar Warrior"
+    },
+    {
+        "gold": 30,
+        "name": "Samurai"
+    },
+    {
+        "gold": 30,
+        "name": "Elite Samurai"
+    },
+    {
+        "gold": 26,
+        "name": "Huskarl"
+    },
+    {
+        "gold": 26,
+        "name": "Elite Huskarl"
+    },
+    {
+        "gold": 25,
+        "name": "Berserk"
+    },
+    {
+        "gold": 25,
+        "name": "Elite Berserk"
+    },
+    {
+        "gold": 25,
+        "name": "Throwing Axeman"
+    },
+    {
+        "gold": 25,
+        "name": "Elite Throwing Axeman"
+    },
+    {
+        "gold": 25,
+        "name": "Woad Raider"
+    },
+    {
+        "gold": 25,
+        "name": "Elite Woad Raider"
+    },
+    {
+        "gold": 20,
+        "name": "Militia"
+    },
+    {
+        "gold": 20,
+        "name": "Man-at-Arms"
+    },
+    {
+        "gold": 20,
+        "name": "Long Swordsman"
+    },
+    {
+        "gold": 20,
+        "name": "Two-Handed Swordsman"
+    },
+    {
+        "gold": 20,
+        "name": "Champion"
+    },
+    {
+        "gold": 20,
+        "name": "Petard"
+    }
+]

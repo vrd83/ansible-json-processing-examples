@@ -56,7 +56,7 @@
       dest: ./output/05_units_names_first_three.json
       force: false
   
-  # How do I retrieve a list of unit names, their descriptions, and include the keys?
+  # How do I retrieve a list of maps containing unit names, their descriptions, and include the keys?
   - name: Retrieve unit names, descriptions and include keys.
     copy:
       content: "{{ units_raw.json | json_query('units[*].{name: name, description: description}') | to_nice_json }}"
@@ -68,4 +68,11 @@
     copy:
       content: "{{ units_raw.json | json_query('units[?expansion==`Age of Kings`].name') | to_nice_json }}"
       dest: ./output/07_units_names_AoK_only.json
+      force: false
+
+  # How do I retrieve a list of maps of the most expensive units that cost gold?
+  - name: Retrieve unit names, sorted by gold cost.
+    copy:
+      content: "{{ units_raw.json | json_query('units[?cost.Gold!=null].{name: name, gold: cost.Gold}') | sort(attribute='gold', reverse=true) | to_nice_json }}"
+      dest: ./output/08_units_by_gold_cost.json
       force: false
